@@ -9,6 +9,10 @@
 
 <body>
     <?php
+    $a = ['🥚', '🐔'];
+    sort($a);
+    print_r($a);
+
     echo "Hello world";
     phpinfo();
     ?>
